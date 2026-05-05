@@ -51,7 +51,7 @@ const Skills = () => {
             key={index} 
             variants={itemVariants}
             whileHover={{ y: -5, scale: 1.02 }}
-            className="bg-slate-900 border border-slate-800 p-8 rounded-2xl hover:border-blue-500/50 hover:shadow-lg hover:shadow-blue-500/10 transition-all group"
+            className="bg-slate-900/40 backdrop-blur-lg border border-slate-800 p-8 rounded-2xl hover:border-blue-500/50 hover:shadow-lg hover:shadow-blue-500/10 transition-all group"
           >
             <div className="text-blue-400 mb-6 group-hover:scale-110 transition-transform origin-left">
               {skill.icon}

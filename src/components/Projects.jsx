@@ -62,7 +62,7 @@ const Projects = () => {
             {/* Content */}
             <div className={`lg:col-span-5 flex flex-col gap-6 ${index % 2 !== 0 ? 'lg:order-1 lg:items-end text-left lg:text-right' : ''}`}>
               <h3 className="text-2xl font-bold">{project.title}</h3>
-              <div className="bg-slate-900 p-6 rounded-xl border border-slate-800 shadow-xl relative z-20">
+              <div className="bg-slate-900/40 backdrop-blur-lg p-6 rounded-xl border border-slate-800 shadow-xl relative z-20">
                 <p className="text-slate-300">{project.description}</p>
               </div>
               <ul className={`flex flex-wrap gap-4 text-sm font-display text-blue-400 ${index % 2 !== 0 ? 'lg:justify-end' : ''}`}>
