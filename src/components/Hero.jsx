@@ -61,7 +61,7 @@ const Hero = () => {
           className="order-1 lg:order-2 flex justify-center lg:justify-end"
         >
           <img 
-            src="/hero_avatar.png" 
+            src="/hero_avatar.webp" 
             alt="Hero Avatar" 
             className="w-64 h-64 md:w-96 md:h-96 object-cover rounded-full border-4 border-slate-800 shadow-2xl"
           />

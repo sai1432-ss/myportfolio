@@ -12,7 +12,7 @@ const About = () => {
           className="hidden lg:block relative"
         >
           <div className="aspect-square bg-slate-800 rounded-2xl overflow-hidden relative z-10">
-             <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=2072&auto=format&fit=crop" alt="About Me" className="w-full h-full object-cover" />
+             <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=2072&auto=format&fit=crop" alt="About Me" loading="lazy" className="w-full h-full object-cover" />
           </div>
           <div className="absolute top-6 -left-6 w-full h-full border-2 border-blue-500/50 rounded-2xl z-0"></div>
         </motion.div>

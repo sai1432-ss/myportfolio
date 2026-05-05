@@ -6,7 +6,7 @@ const Projects = () => {
     {
       title: 'Financial Dashboard',
       description: 'A modern, sleek dark-mode financial dashboard user interface with glowing charts and premium aesthetic.',
-      image: '/project_1.png',
+      image: '/project_1.webp',
       tech: ['React', 'Tailwind CSS', 'Recharts'],
       github: '#',
       demo: '#'
@@ -14,7 +14,7 @@ const Projects = () => {
     {
       title: 'E-commerce App',
       description: 'A beautiful mobile e-commerce interface featuring clean typography, pastel colors, and seamless checkout.',
-      image: '/project_2.png',
+      image: '/project_2.webp',
       tech: ['React Native', 'Redux', 'Stripe API'],
       github: '#',
       demo: '#'
@@ -22,7 +22,7 @@ const Projects = () => {
     {
       title: 'AI Chat Interface',
       description: 'A cutting-edge web application interface for AI interactions, complete with dark mode and neon accents.',
-      image: '/project_3.png',
+      image: '/project_3.webp',
       tech: ['Next.js', 'OpenAI API', 'Framer Motion'],
       github: '#',
       demo: '#'
@@ -55,7 +55,7 @@ const Projects = () => {
             <div className={`lg:col-span-7 relative ${index % 2 !== 0 ? 'lg:order-2' : ''}`}>
               <div className="rounded-2xl overflow-hidden border border-slate-700 group relative">
                 <div className="absolute inset-0 bg-blue-900/20 group-hover:bg-transparent transition-colors z-10"></div>
-                <img src={project.image} alt={project.title} className="w-full h-auto object-cover group-hover:scale-105 transition-transform duration-500" />
+                <img src={project.image} alt={project.title} loading="lazy" className="w-full h-auto object-cover group-hover:scale-105 transition-transform duration-500" />
               </div>
             </div>
             {/* Content */}
