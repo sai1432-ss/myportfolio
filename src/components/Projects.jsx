@@ -1,4 +1,5 @@
-import { Github, ExternalLink } from 'lucide-react';
+import { ExternalLink } from 'lucide-react';
+import { FaGithub } from 'react-icons/fa';
 import { motion } from 'framer-motion';
 
 const Projects = () => {
@@ -68,7 +69,7 @@ const Projects = () => {
                 {project.tech.map(t => <li key={t}>{t}</li>)}
               </ul>
               <div className={`flex gap-4 ${index % 2 !== 0 ? 'lg:justify-end' : ''}`}>
-                <a href={project.github} className="text-slate-400 hover:text-white transition-colors"><Github size={24} /></a>
+                <a href={project.github} className="text-slate-400 hover:text-white transition-colors"><FaGithub size={24} /></a>
                 <a href={project.demo} className="text-slate-400 hover:text-white transition-colors"><ExternalLink size={24} /></a>
               </div>
             </div>

@@ -9,6 +9,11 @@ const Hero = () => {
 
   return (
     <section id="hero" className="min-h-screen pt-20 flex items-center px-6 lg:px-12 max-w-7xl mx-auto overflow-hidden relative">
+      {/* Decorative Background Parallax Element */}
+      <motion.div 
+        style={{ y: useTransform(scrollY, [0, 1000], [0, 300]) }}
+        className="absolute top-20 right-0 w-96 h-96 bg-blue-500/10 rounded-full blur-3xl pointer-events-none -z-10"
+      />
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center w-full z-10">
         <motion.div 
           style={{ y: y2, opacity }}
