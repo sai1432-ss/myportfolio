@@ -5,34 +5,34 @@ import { motion } from 'framer-motion';
 const Projects = () => {
   const projects = [
     {
-      title: 'Financial Dashboard',
-      description: 'A modern, sleek dark-mode financial dashboard user interface with glowing charts and premium aesthetic.',
-      image: '/project_1.webp',
-      tech: ['React', 'Tailwind CSS', 'Recharts'],
+      title: 'Automated Attendance System',
+      description: 'Revolutionizing attendance tracking with cutting-edge facial recognition technology. Making education smarter, one face at a time.',
+      image: '/project1.webp',
+      tech: ['React', 'Tailwind CSS', 'Node.js', 'Express.js', 'Face Recognition', 'mongoDB'],
       github: '#',
-      demo: '#'
+      demo: 'https://attendence-mu.vercel.app/'
     },
     {
-      title: 'E-commerce App',
-      description: 'A beautiful mobile e-commerce interface featuring clean typography, pastel colors, and seamless checkout.',
-      image: '/project_2.webp',
-      tech: ['React Native', 'Redux', 'Stripe API'],
-      github: '#',
-      demo: '#'
+      title: 'AI Form Architect',
+      description: 'AI Form Architect is a full-stack platform that transforms natural language prompts into production-ready, validated JSON Schema (Draft 7) forms. Using openais GROQ, the system supports multi-turn refinements, conditional logic (x-show-when) and visual diffing',
+      image: '/project2.webp',
+      tech: ['React ', 'Zustand', 'GROQ-AI API'],
+      github: 'https://github.com/sai1432-ss/AI-PoweredConversationalFormBuilder',
+      demo: 'https://production-frontend-pi.vercel.app/'
     },
     {
-      title: 'AI Chat Interface',
-      description: 'A cutting-edge web application interface for AI interactions, complete with dark mode and neon accents.',
-      image: '/project_3.webp',
-      tech: ['Next.js', 'OpenAI API', 'Framer Motion'],
-      github: '#',
-      demo: '#'
+      title: 'Multi-tanent SAAS Application',
+      description: 'The Multi-Tenant SaaS Task Management Platform is a production-ready, multi-tenant environment. The system supports multiple organizations (tenants) on a shared infrastructure while ensuring strict data isolation and role-based access control.',
+      image: '/project3.png',
+      tech: ['React.js', 'node.js', 'Express.js', 'postgres'],
+      github: 'https://github.com/sai1432-ss/SaaSApplication',
+      demo: 'https://saa-s-application-three.vercel.app/login'
     }
   ];
 
   return (
     <section id="projects" className="py-24 px-6 lg:px-12 max-w-7xl mx-auto">
-      <motion.div 
+      <motion.div
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
@@ -44,8 +44,8 @@ const Projects = () => {
       </motion.div>
       <div className="flex flex-col gap-20">
         {projects.map((project, index) => (
-          <motion.div 
-            key={index} 
+          <motion.div
+            key={index}
             initial={{ opacity: 0, y: 100 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-100px" }}

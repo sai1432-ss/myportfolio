@@ -4,7 +4,7 @@
 A fully responsive, highly interactive personal portfolio website designed to showcase my software development skills, projects, and professional background. It features modern UI design, Framer Motion animations, and parallax scrolling effects for a premium user experience.
 
 ## 👨‍💻 Author
-**Your Name** (Replace with your actual name)
+**SAI SATISH RAJAPANTHULA** 
 
 ## 🛠 Tech Stack
 - **Framework**: React.js + Vite
@@ -28,8 +28,8 @@ Follow these instructions to run the project locally on your machine.
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/your-repo-name.git
-   cd your-repo-name
+   git clone https://github.com/sai1432-ss/myportfolio
+   cd myportfolio
    ```
 
 2. **Install dependencies**
