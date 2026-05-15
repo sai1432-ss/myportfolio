@@ -26,7 +26,7 @@ const Projects = () => {
       image: '/project3.png',
       tech: ['React.js', 'node.js', 'Express.js', 'postgres'],
       github: 'https://github.com/sai1432-ss/SaaSApplication',
-      demo: 'https://saa-s-application-three.vercel.app/login'
+      demo: 'https://saa-s-application-three.vercel.app'
     }
   ];
 
