@@ -23,7 +23,7 @@ const Projects = () => {
     {
       title: 'Multi-tanent SAAS Application',
       description: 'The Multi-Tenant SaaS Task Management Platform is a production-ready, multi-tenant environment. The system supports multiple organizations (tenants) on a shared infrastructure while ensuring strict data isolation and role-based access control.',
-      image: '/project3.png',
+      image: 'project3.png',
       tech: ['React.js', 'node.js', 'Express.js', 'postgres'],
       github: 'https://github.com/sai1432-ss/SaaSApplication',
       demo: 'https://saa-s-application-three.vercel.app/login'
